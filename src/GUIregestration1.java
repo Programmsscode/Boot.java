@@ -52,8 +52,8 @@ container5.add(button7);
                 Name = jtextfield1.getText() ;
                 Password =jtextfield2.getText() ;
                 try {
-                    PrintStream printStream1 =new PrintStream("C:/Users/user/Documents/Name.txt");
-                    PrintStream printStream2 =new PrintStream("C:/Users/user/Documents/Password.txt");
+                    PrintStream printStream1 =new PrintStream("Name.txt");
+                    PrintStream printStream2 =new PrintStream("Password.txt");
                     printStream1.println(Name);
                     printStream2.println(Password);
                     printStream1.close();

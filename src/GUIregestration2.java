@@ -44,7 +44,7 @@ public class GUIregestration2 extends JFrame{
         container5.add(button7);
         button7.setBackground(Color.white);
 
-        container5.setBackground(Color.CYAN);
+        container5.setBackground(Color.black);
 
     } class ButtonEventListener23 implements ActionListener{
 
@@ -55,8 +55,8 @@ public class GUIregestration2 extends JFrame{
                 Name2 = jtextfield3.getText() ;
                 Password2 = jtextfield4.getText() ;
                 try {
-                    Scanner Namescan = new Scanner(new File("C:/Users/user/Documents/Name.txt"));
-                    Scanner Passwordscan = new Scanner(new File("C:/Users/user/Documents/Password.txt"));
+                    Scanner Namescan = new Scanner(new File("Name.txt"));
+                    Scanner Passwordscan = new Scanner(new File("Password.txt"));
                   Name2scan =Namescan.nextLine();
                     Password2scan =Passwordscan.nextLine();
                     if(Name2.equals(Name2scan) && Password2.equals(Password2scan)){
